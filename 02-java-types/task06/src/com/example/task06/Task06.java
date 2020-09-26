@@ -6,7 +6,7 @@ public class Task06 {
         int length = Integer.toString(x + y).length();
         if (x + y < 0)
             return length - 1;
-        else return  length;
+        else return length;
     }
 
     public static void main(String[] args) {
